@@ -40,4 +40,10 @@ section {
 
 .image_container img {
     width: 128px;
+    height: 128px;
+    border-radius: 20px;
+}
+
+h2 { 
+    text-align: center;
 }
