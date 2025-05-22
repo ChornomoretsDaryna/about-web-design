@@ -1,11 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
 body {
     font-family: arial;
+    font-size: 18px;
     background-color: rgb(191, 230, 173);
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 50px;
+    overflow-x: hidden;
 }
 
 section {
@@ -65,7 +72,7 @@ h2 {
     align-items: center;
     gap: 10px;
     width: 60%;
-    background-color: rgb(161, 235, 219);
+    background-color: rgb(78, 138, 76);
    border-radius: 10px;
  }
 
@@ -81,6 +88,7 @@ h2 {
     text-align: center;
     cursor: pointer;
  }
+ 
 
  /*Анімація появи пояснень тегів*/
  .tag-container:hover .tag-description {
@@ -98,7 +106,34 @@ h2 {
  .tag-description{
     display: none;
     text-align: left;
+ } 
+
+
+ /*Секція про вебдизайн - вітальна з відео*/
+ .welcome {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
  }
 
+ .background-video {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+ }
 
- 
+ .content {
+    position: relative;
+    z-index: 1;
+    color:rgb(142, 214, 114);
+    text-align: center;
+    font-size: 120px;
+ }
