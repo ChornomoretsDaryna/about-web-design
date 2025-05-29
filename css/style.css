@@ -72,7 +72,7 @@ h2 {
     align-items: center;
     gap: 10px;
     width: 60%;
-    background-color: #5d4f39(78, 138, 76);
+    background-color: rgb(134, 89, 89);
    border-radius: 10px;
  }
 
@@ -133,7 +133,7 @@ h2 {
  .content {
     position: relative;
     z-index: 1;
-    color:#5d4f39(142, 214, 114);
+    color:rgb(134, 89, 89);
     text-align: center;
     font-size: 120px;
  }
