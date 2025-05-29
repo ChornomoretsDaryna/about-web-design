@@ -137,3 +137,6 @@ h2 {
     text-align: center;
     font-size: 120px;
  }
+ html{
+    scroll-behavior: smooth;
+ }
