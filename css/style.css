@@ -144,7 +144,7 @@ h2 {
  /* Секція футер – з навігацією, контактами та короткою інформацією про сайт */
 footer {
     width: 100%;
-    background:  #4e2c1a;
+    background:  #281236;
     color: #555f68;
     margin-top: 40px;
     box-shadow: 0 -4px 24px rgb(118, 76, 146);
@@ -209,7 +209,7 @@ footer {
     padding: 12px 0 8px 0;
     font-size: 16px;
     color: #dac4e9;
-    background: #294334;
+    background: #27012c;
 }
 
  /* Секція з навігацією */
